@@ -6,7 +6,7 @@ function fetchAllDogs() {
 }
 
 function fetchDogById(id) {
-  return fetch(`${BASE_URL}/dogs/${id}`)
+  return fetch(`${BASE_URL}/dogs/${Number(id)+1}`)
     .then(response => response.json());
 }
 

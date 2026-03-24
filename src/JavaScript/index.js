@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         img.src = dog.first_image_url;
         img.alt = dog.name;
         title.textContent = dog.name;
-        link.href = `dog.html?id=${index+1}`;
+        link.href = `dog.html?id=${index}`;
       });
     })
     .catch(error => {
