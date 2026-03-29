@@ -35,4 +35,6 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  background: #6a1b9a;
+  color: white;
 }

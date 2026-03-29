@@ -1,13 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
 const id = parseInt(getDogIdFromURL());
 
-    // בדיקה איזה ID מגיע מהקישור
     console.log("ID from URL:", id);
 
     fetchDogById(id)
         .then(dog => {
 
-            // בדיקה מה ה-API באמת מחזיר
             console.log("Dog object from API:", dog);
 
             document.getElementById("dog-title").textContent =
